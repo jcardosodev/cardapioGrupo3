@@ -177,9 +177,9 @@ footer {
     text-align: center;
 }
 
-.container {
+.carousel__container{
+    width: 50%;
     margin: 0 auto;
-    width: 90%;
 }
 
 @media (max-width: 768px) {
