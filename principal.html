@@ -1,37 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio Digital</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="img/logoPitaPalace.png" alt="Logo do restaurante">
         </div>
         <div class="title">
-       
+
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#entradas">Entradas</a></li>
-            <li><a href="#pratos">Pratos Principais</a></li>
-            <li><a href="#sobremesas">Sobremesas</a></li>
-            <li><a href="#bebidas">Bebidas</a></li>
-            <li><a href="#chef">Recomendações do Chef</a></li>
+    <nav class="nav__container">
+        <ul class="nav__links">
+            <li class="nav__itens"><a href="#entradas">Entradas</a></li>
+            <li class="nav__itens"><a href="#pratos">Pratos Principais</a></li>
+            <li class="nav__itens"><a href="#sobremesas">Sobremesas</a></li>
+            <li class="nav__itens"><a href="bebidas.html">Bebidas</a></li>
+            <li class="nav__itens"><a href="recomendacoesGaleria.html">Recomendações do Chef</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section id="entradas">
-            <h2 class="submenu">Comida Mediterrânea Autêntica</h2>
+    <main class="menu__container">
+        <div class="menu__1">
+            <h2>Pratos Principais</h2>
             <div class="menu-item">
-                <img src="img/Souvlaki-prato-grecia.jpg" alt="Entrada 1">
-                <h3></h3>
-                <p>Souvlaki delicioso com frango grelhado e hummus</p>
+                <div class="d-flex">
+                    <h3>Kibe</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 20,00</p>
+                </div>
+                <p class=""><strong>Descrição:</strong> Saboreie a autenticidade da comida mediterrânea com nosso Kibe acompanhado de Salada Fresca e Hummus.</p>
+                <hr>
+            </div>
+            <div class="menu-item">
+                <div class="d-flex">
+                    <h3>Tabbouleh</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 12,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Feito com uma mistura refrescante de salsa picada, tomates suculentos, trigo bulgur, cebola roxa e temperado com azeite de oliva e suco de limão fresco.</p>
+                <hr>
+            </div>
+            <div class="menu-item">
+                <div class="d-flex ">
+                    <h3>Pita de Frango</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 15,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Nosso frango é marinado em especiarias exóticas e grelhado para a perfeição, depois recheado em um pão pita macio e fresco. </p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="menu__container__2 d-grid">
+            <img class="img" src="img/Kibe.jpeg" alt="">
+
+            <div class="menu__2">
+                <h2>Entradas</h2>
+                <div class="menu-item">
+                    <div class="d-flex justify-content-between">
+                        <h3>Torta de frango</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                    </div>
+                    <p><strong>Descrição:</strong> Nossa massa leve e crocante abraça um recheio generoso de frango desfiado, refogado com temperos aromáticos e vegetais frescos. </p>
+                    <hr>
+                </div>
+                <div class="menu-item">
+                   
+                    <div class="d-flex justify-content-between">
+                        <h3>Nhoque</h3>
+                        <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
+                    </div>
+                    <p><strong>Descrição:</strong> Feito com batatas frescas e farinha de trigo, nosso nhoque é leve e macio, pronto para ser mergulhado em seu molho favorito.</p>
+                </div>
+                <hr>
+                <div class="menu-item">
+                    
+                    <div class="d-flex justify-content-between">
+                        <h3>Lasanha</h3>
+                        <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
+                    </div>
+                    <p><strong>Descrição:</strong> Uma escolha clássica e satisfatória para qualquer refeição. Delicie-se com nossa Lasanha e deixe-se levar por uma experiência gastronômica inesquecível. </p>
+                </div>
+                <hr>    
+            </div>
+        </div>
+
+        </div>
+        <div><img class="img" src="img/Pitas.jpg" alt=""></div>
+
+
+
+        <div class="menu__3">
+            <h2>Saladas</h2>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Caesar</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 12,90</p>
+                </div>
+                <p><strong>Descrição:</strong> Alface romana fresca, croutons crocantes, queijo parmesão ralado e um delicioso molho Caesar caseiro, tudo acompanhado por tiras de frango grelhado suculento. </p>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Salada Grega</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                </div>
+                <p><strong>Descrição:</strong> Folhas de alface crocante, tomates suculentos, pepinos refrescantes, cebola roxa fatiada e azeitonas Kalamata, tudo regado com azeite de oliva extra virgem e um toque de vinagre balsâmico. </p>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Salada de Frutas</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                </div>
+                <p><strong>Descrição:</strong> Manga suculenta, abacaxi doce, kiwi refrescante, morangos vibrantes e lascas de coco crocante se unem para criar uma explosão de sabores tropicais </p>
+            </div>
+            <hr>
+        </div>
+        
+    
+        <div class="menu__4">
+            <h2>Sobremesas</h2>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Eros<h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Camadas suaves de bolo de chocolate úmido e cremoso, intercaladas com uma ganache rica e decadente de chocolate. </p>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Crepes de Verão<h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Delicadas crepes francesas recheadas com uma suave mistura de creme de queijo mascarpone e ricota, levemente adoçadas com mel e perfumadas com raspas de limão.  </p>
+            </div>
+            <hr>
+            
+            <div>
+                <img class="img" src="img/EROS.jpeg" alt="EROS">
+            </div>
+
+        </div>
+        
+
+    </main>
+
+    <footer class="bg-body text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+        
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              target="_blank" 
+              href="https://github.com/jcardosodev/cardapioGrupo3"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #3b5998;">
+          © 2024 Copyright:
+          <a class="text-white">Desenvolvido pelo Grupo 3</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+  
+</html>
