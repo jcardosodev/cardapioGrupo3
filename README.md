@@ -1,3 +1,6 @@
+![alt text](https://github.com/jcardosodev/cardapioGrupo3/blob/main/img/logoPitaPalace.png)
+
+
 # Restaurante Pita Palace - Grupo 3
  
 Desenvolver uma página de cardápio digital para um restaurante fictício utilizando
