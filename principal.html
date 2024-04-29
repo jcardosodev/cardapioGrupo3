@@ -26,13 +26,41 @@
             <li class="nav__itens"><a href="#entradas">Entradas</a></li>
             <li class="nav__itens"><a href="#pratos">Pratos Principais</a></li>
             <li class="nav__itens"><a href="#sobremesas">Sobremesas</a></li>
-            <li class="nav__itens"><a href="bebidas.html">Bebidas</a></li>
+            <li class="nav__itens"><a href="#bebidas">Bebidas</a></li>
             <li class="nav__itens"><a href="recomendacoesGaleria.html">Recomendações do Chef</a></li>
         </ul>
     </nav>
 
-    <main class="menu__container">
-        <div class="menu__1">
+    <main class="menu__container" id="entradas">
+        <div class="menu__2">
+            <h2>Entradas</h2>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Torta de frango</h3>
+                    <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                </div>
+                <p><strong>Descrição:</strong> Nossa massa leve e crocante abraça um recheio generoso de frango desfiado, refogado com temperos aromáticos e vegetais frescos. </p>
+                <hr>
+            </div>
+            <div class="menu-item">
+
+                <div class="d-flex justify-content-between">
+                    <h3>Nhoque</h3>
+                    <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Feito com batatas frescas e farinha de trigo, nosso nhoque é leve e macio, pronto para ser mergulhado em seu molho favorito.</p>
+            </div>
+            <hr>
+            <div class="menu-item">
+                <div class="d-flex justify-content-between">
+                    <h3>Lasanha</h3>
+                    <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
+                </div>
+                <p><strong>Descrição:</strong> Uma escolha clássica e satisfatória para qualquer refeição. Delicie-se com nossa Lasanha e deixe-se levar por uma experiência gastronômica inesquecível. </p>
+            </div>
+            <hr>
+        </div>
+        <div class="menu__1" id="pratos">
             <h2>Pratos Principais</h2>
             <div class="menu-item">
                 <div class="d-flex">
@@ -60,80 +88,77 @@
             </div>
         </div>
 
-        <div class="menu__container__2 d-grid">
-            <img class="img" src="img/Kibe.jpeg" alt="">
-
-            <div class="menu__2">
-                <h2>Entradas</h2>
+        <div class="menu__container__2 d-grid" id="saladas">
+            <img class="img" src="img/nhoque.png" alt="">
+            <div class="menu__3">
+                <h2>Saladas</h2>
                 <div class="menu-item">
                     <div class="d-flex justify-content-between">
-                        <h3>Torta de frango</h3>
-                        <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                        <h3>Caesar</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 12,90</p>
                     </div>
-                    <p><strong>Descrição:</strong> Nossa massa leve e crocante abraça um recheio generoso de frango desfiado, refogado com temperos aromáticos e vegetais frescos. </p>
-                    <hr>
-                </div>
-                <div class="menu-item">
-                   
-                    <div class="d-flex justify-content-between">
-                        <h3>Nhoque</h3>
-                        <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
-                    </div>
-                    <p><strong>Descrição:</strong> Feito com batatas frescas e farinha de trigo, nosso nhoque é leve e macio, pronto para ser mergulhado em seu molho favorito.</p>
+                    <p><strong>Descrição:</strong> Alface romana fresca, croutons crocantes, queijo parmesão ralado e um delicioso molho Caesar caseiro, tudo acompanhado por tiras de frango grelhado suculento. </p>
                 </div>
                 <hr>
                 <div class="menu-item">
-                    
                     <div class="d-flex justify-content-between">
-                        <h3>Lasanha</h3>
-                        <p class="menu__preco"><strong>Valor:</strong>R$ 20,00</p>
+                        <h3>Salada Grega</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
                     </div>
-                    <p><strong>Descrição:</strong> Uma escolha clássica e satisfatória para qualquer refeição. Delicie-se com nossa Lasanha e deixe-se levar por uma experiência gastronômica inesquecível. </p>
+                    <p><strong>Descrição:</strong> Folhas de alface crocante, tomates suculentos, pepinos refrescantes, cebola roxa fatiada e azeitonas Kalamata, tudo regado com azeite de oliva extra virgem e um toque de vinagre balsâmico. </p>
                 </div>
-                <hr>    
+                <hr>
+                <div class="menu-item">
+                    <div class="d-flex justify-content-between">
+                        <h3>Salada de Frutas</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
+                    </div>
+                    <p><strong>Descrição:</strong> Manga suculenta, abacaxi doce, kiwi refrescante, morangos vibrantes e lascas de coco crocante se unem para criar uma explosão de sabores tropicais </p>
+                </div>
+                <hr>
+                <img class="img" src="img/Salada.jpg" alt="">
             </div>
         </div>
 
+        <div class="grid__2 d-grid" id="bebidas">
+            <img class="img img2" src="img/Pitas.jpg" alt="">
+            <div class="menu__bebidas d-grid">
+                <h2>Bebidas</h2>
+                <div class="menu-item">
+                    <div class="d-flex">
+                        <h3>Suco de Laranja</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 7,00</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex">
+                        <h3>Água</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 4,00</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="menu-item">
+                    <div class="d-flex ">
+                        <h3>Refrigerante</h3>
+                        <p class="menu__preco"><strong>Valor:</strong> R$ 5,00</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div>
+                <img class="img" src="img/sucoLaranja.png" alt="Laranja">
+            </div>
         </div>
-        <div><img class="img" src="img/Pitas.jpg" alt=""></div>
-
-
-
-        <div class="menu__3">
-            <h2>Saladas</h2>
-            <div class="menu-item">
-                <div class="d-flex justify-content-between">
-                    <h3>Caesar</h3>
-                    <p class="menu__preco"><strong>Valor:</strong> R$ 12,90</p>
-                </div>
-                <p><strong>Descrição:</strong> Alface romana fresca, croutons crocantes, queijo parmesão ralado e um delicioso molho Caesar caseiro, tudo acompanhado por tiras de frango grelhado suculento. </p>
-            </div>
-            <hr>
-            <div class="menu-item">
-                <div class="d-flex justify-content-between">
-                    <h3>Salada Grega</h3>
-                    <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
-                </div>
-                <p><strong>Descrição:</strong> Folhas de alface crocante, tomates suculentos, pepinos refrescantes, cebola roxa fatiada e azeitonas Kalamata, tudo regado com azeite de oliva extra virgem e um toque de vinagre balsâmico. </p>
-            </div>
-            <hr>
-            <div class="menu-item">
-                <div class="d-flex justify-content-between">
-                    <h3>Salada de Frutas</h3>
-                    <p class="menu__preco"><strong>Valor:</strong> R$ 9,90</p>
-                </div>
-                <p><strong>Descrição:</strong> Manga suculenta, abacaxi doce, kiwi refrescante, morangos vibrantes e lascas de coco crocante se unem para criar uma explosão de sabores tropicais </p>
-            </div>
-            <hr>
         </div>
-        
-    
-        <div class="menu__4">
+
+
+        <div class="menu__4" id="sobremesas">
             <h2>Sobremesas</h2>
             <div class="menu-item">
                 <div class="d-flex justify-content-between">
                     <h3>Eros<h3>
-                    <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
+                            <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
                 </div>
                 <p><strong>Descrição:</strong> Camadas suaves de bolo de chocolate úmido e cremoso, intercaladas com uma ganache rica e decadente de chocolate. </p>
             </div>
@@ -141,83 +166,41 @@
             <div class="menu-item">
                 <div class="d-flex justify-content-between">
                     <h3>Crepes de Verão<h3>
-                    <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
+                            <p class="menu__preco"><strong>Valor:</strong> R$ 30,00</p>
                 </div>
-                <p><strong>Descrição:</strong> Delicadas crepes francesas recheadas com uma suave mistura de creme de queijo mascarpone e ricota, levemente adoçadas com mel e perfumadas com raspas de limão.  </p>
+                <p><strong>Descrição:</strong> Delicadas crepes francesas recheadas com uma suave mistura de creme de queijo mascarpone e ricota, levemente adoçadas com mel e perfumadas com raspas de limão. </p>
             </div>
             <hr>
-            
             <div>
                 <img class="img" src="img/EROS.jpeg" alt="EROS">
             </div>
-
         </div>
-        
 
     </main>
-
-    <footer class="bg-body text-center text-white">
+    <section class="contato text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              data-mdb-ripple-init class="btn text-white btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              data-mdb-ripple-init class="btn text-white btn-floating m-1"
-              style="background-color: #55acee;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-        
-      
-            <!-- Instagram -->
-            <a
-              data-mdb-ripple-init class="btn text-white btn-floating m-1"
-              style="background-color: #ac2bac;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              data-mdb-ripple-init class="btn text-white btn-floating m-1"
-              style="background-color: #0082ca;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <!-- Github -->
-            <a
-              data-mdb-ripple-init class="btn text-white btn-floating m-1"
-              style="background-color: #333333;"
-              target="_blank" 
-              href="https://github.com/jcardosodev/cardapioGrupo3"
-              role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+            <!-- Section: Social media -->
+            <div class="mb-4 d-flex justify-content-around">
+                <!-- Facebook -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" target="_blank" href="https://github.com/jcardosodev/cardapioGrupo3" role="button"><i class="fab fa-github"></i></a>
+            </div>
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #3b5998;">
-          © 2024 Copyright:
-          <a class="text-white">Desenvolvido pelo Grupo 3</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-  
+    </section>
+
+    <footer class="text-center p-3 footer">
+        <p class="text-white">Desenvolvido pelo Grupo 3 © 2024 Copyright</p>
+    </footer>
+
 </html>
